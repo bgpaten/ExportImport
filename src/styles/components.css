@@ -1,0 +1,234 @@
+/* Typography Utilities */
+.display-xxl {
+  font-family: var(--font-family-display);
+  font-size: var(--typography-display-xxl-fontSize);
+  font-weight: var(--typography-display-xxl-fontWeight);
+  line-height: var(--typography-display-xxl-lineHeight);
+  letter-spacing: var(--typography-display-xxl-letterSpacing);
+}
+
+.display-xl {
+  font-family: var(--font-family-display);
+  font-size: var(--typography-display-xl-fontSize);
+  font-weight: var(--typography-display-xl-fontWeight);
+  line-height: var(--typography-display-xl-lineHeight);
+}
+
+.display-lg {
+  font-family: var(--font-family-display);
+  font-size: var(--typography-display-lg-fontSize);
+  font-weight: var(--typography-display-lg-fontWeight);
+  line-height: var(--typography-display-lg-lineHeight);
+}
+
+.display-md {
+  font-family: var(--font-family-display);
+  font-size: var(--typography-display-md-fontSize);
+  font-weight: var(--typography-display-md-fontWeight);
+  line-height: var(--typography-display-md-lineHeight);
+}
+
+.heading-xl {
+  font-family: var(--font-family-display);
+  font-size: var(--typography-heading-xl-fontSize);
+  font-weight: var(--typography-heading-xl-fontWeight);
+  line-height: var(--typography-heading-xl-lineHeight);
+  letter-spacing: var(--typography-heading-xl-letterSpacing);
+}
+
+.heading-md {
+  font-family: var(--font-family-display);
+  font-size: var(--typography-heading-md-fontSize);
+  font-weight: var(--typography-heading-md-fontWeight);
+  line-height: var(--typography-heading-md-lineHeight);
+  letter-spacing: var(--typography-heading-md-letterSpacing);
+}
+
+.body-lg {
+  font-family: var(--font-family-body);
+  font-size: var(--typography-body-lg-fontSize);
+  font-weight: var(--typography-body-lg-fontWeight);
+  line-height: var(--typography-body-lg-lineHeight);
+}
+
+.body-md {
+  font-family: var(--font-family-body);
+  font-size: var(--typography-body-md-fontSize);
+  font-weight: var(--typography-body-md-fontWeight);
+  line-height: var(--typography-body-md-lineHeight);
+}
+
+.eyebrow-cap {
+  font-family: var(--font-family-body);
+  font-size: var(--typography-eyebrow-cap-fontSize);
+  font-weight: var(--typography-eyebrow-cap-fontWeight);
+  line-height: var(--typography-eyebrow-cap-lineHeight);
+  letter-spacing: var(--typography-eyebrow-cap-letterSpacing);
+  text-transform: uppercase;
+}
+
+.caption {
+  font-family: var(--font-family-body);
+  font-size: var(--typography-caption-fontSize);
+  font-weight: var(--typography-caption-fontWeight);
+  line-height: var(--typography-caption-lineHeight);
+  letter-spacing: var(--typography-caption-letterSpacing);
+}
+
+/* Button Components */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: var(--font-family-body);
+  font-size: var(--typography-body-md-fontSize);
+  font-weight: var(--typography-body-md-fontWeight);
+  padding: 12px 24px;
+  border-radius: var(--rounded-pill);
+}
+
+.button-primary-pill {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+}
+.button-primary-pill:hover {
+  background-color: var(--color-shade-70);
+}
+
+.button-outline-on-dark {
+  background-color: transparent;
+  color: var(--color-on-primary);
+  border: 2px solid var(--color-on-primary);
+}
+.button-outline-on-dark:hover {
+  background-color: var(--color-on-primary);
+  color: var(--color-primary);
+}
+
+.button-outline-on-light {
+  background-color: var(--color-canvas-light);
+  color: var(--color-ink);
+  border: 1px solid var(--color-ink);
+}
+.button-outline-on-light:hover {
+  background-color: var(--color-ink);
+  color: var(--color-canvas-light);
+}
+
+.button-aloe-pill {
+  background-color: var(--color-aloe-10);
+  color: var(--color-ink);
+}
+.button-aloe-pill:hover {
+  filter: brightness(0.95);
+}
+
+/* Card Components */
+.card-pricing {
+  background-color: var(--color-canvas-light);
+  color: var(--color-ink);
+  border-radius: var(--rounded-lg);
+  padding: var(--spacing-xxl);
+  border: 1px solid var(--color-hairline-light);
+  /* Level 3 Elevation */
+  box-shadow: 0 8px 8px rgba(0,0,0,0.1), 0 4px 4px rgba(0,0,0,0.1), 0 2px 2px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+.card-pricing-featured {
+  background-color: var(--color-aloe-10);
+  color: var(--color-ink);
+  border-radius: var(--rounded-lg);
+  padding: var(--spacing-xxl);
+  /* Level 3 Elevation */
+  box-shadow: 0 8px 8px rgba(0,0,0,0.1), 0 4px 4px rgba(0,0,0,0.1), 0 2px 2px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+.card-feature-cinematic {
+  background-color: var(--color-canvas-night-elevated);
+  color: var(--color-on-primary);
+  border-radius: var(--rounded-lg);
+  padding: var(--spacing-xxl);
+  /* Level 1 Elevation */
+  box-shadow: 0 1px 2px rgba(255,255,255,0.05), inset 0 1px 0 rgba(255,255,255,0.04);
+}
+
+.card-photo-frame {
+  background-color: var(--color-canvas-night);
+  color: var(--color-on-primary);
+  border-radius: var(--rounded-xl);
+  padding: 0;
+  overflow: hidden;
+}
+.card-photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Tags */
+.pill-tag-mint {
+  background-color: var(--color-aloe-10);
+  color: var(--color-ink);
+  font-family: var(--font-family-body);
+  font-size: var(--typography-eyebrow-cap-fontSize);
+  text-transform: uppercase;
+  letter-spacing: var(--typography-eyebrow-cap-letterSpacing);
+  padding: 4px 12px;
+  border-radius: var(--rounded-pill);
+  display: inline-block;
+}
+
+/* Nav Bars */
+.nav-bar-light {
+  background-color: var(--color-canvas-light);
+  color: var(--color-ink);
+  padding: var(--spacing-lg) var(--spacing-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-dark {
+  background-color: transparent;
+  color: var(--color-on-primary);
+  padding: var(--spacing-lg) var(--spacing-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+/* Footers */
+.footer-dark {
+  background-color: var(--color-canvas-night);
+  color: var(--color-on-primary);
+  padding: var(--spacing-huge) var(--spacing-xl);
+}
+
+.footer-light {
+  background-color: var(--color-canvas-light);
+  color: var(--color-ink);
+  padding: var(--spacing-huge) var(--spacing-xl);
+}
+
+/* Carousel Animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+  gap: var(--spacing-huge);
+}
+.carousel-track:hover {
+  animation-play-state: paused;
+}

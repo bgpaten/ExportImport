@@ -1,0 +1,130 @@
+:root {
+  /* Colors - Primary / Dark Canvas */
+  --color-primary: #000000;
+  --color-ink: #000000;
+  --color-on-primary: #ffffff;
+  --color-on-dark: #ffffff;
+  --color-canvas-night: #000000;
+  --color-canvas-night-elevated: #0a0a0a;
+  
+  /* Colors - Light Canvas */
+  --color-canvas-light: #ffffff;
+  --color-canvas-cream: #fbfbf5;
+  --color-surface-elevated-dark: #1e2c31;
+  
+  /* Colors - Shades */
+  --color-shade-30: #d4d4d8;
+  --color-shade-40: #a1a1aa;
+  --color-shade-50: #71717a;
+  --color-shade-60: #52525b;
+  --color-shade-70: #3f3f46;
+  
+  /* Colors - Hairlines */
+  --color-hairline-light: #e4e4e7;
+  --color-hairline-dark: #1e2c31;
+  
+  /* Colors - Accents (Light track only) */
+  --color-aloe-10: #c1fbd4;
+  --color-pistachio-10: #d4f9e0;
+  
+  /* Colors - Links */
+  --color-link-cool-1: #9dabad;
+  --color-link-cool-2: #9797a2;
+  --color-link-cool-3: #bdbdca;
+  --color-link-mint: #99b3ad;
+
+  /* Typography Families */
+  --font-family-display: "Helvetica Now Display", "Inter Display", Helvetica, Arial, sans-serif;
+  --font-family-body: "Inter", Helvetica, Arial, sans-serif;
+  --font-family-code: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Typography Scales */
+  --typography-display-xxl-fontSize: 96px;
+  --typography-display-xxl-fontWeight: 330;
+  --typography-display-xxl-lineHeight: 1.0;
+  --typography-display-xxl-letterSpacing: 2.4px;
+
+  --typography-display-xl-fontSize: 70px;
+  --typography-display-xl-fontWeight: 330;
+  --typography-display-xl-lineHeight: 1.0;
+  --typography-display-xl-letterSpacing: 0;
+
+  --typography-display-lg-fontSize: 55px;
+  --typography-display-lg-fontWeight: 330;
+  --typography-display-lg-lineHeight: 1.16;
+  --typography-display-lg-letterSpacing: 0;
+
+  --typography-display-md-fontSize: 48px;
+  --typography-display-md-fontWeight: 330;
+  --typography-display-md-lineHeight: 1.14;
+  --typography-display-md-letterSpacing: 0;
+
+  --typography-heading-xl-fontSize: 28px;
+  --typography-heading-xl-fontWeight: 500;
+  --typography-heading-xl-lineHeight: 1.28;
+  --typography-heading-xl-letterSpacing: 0.42px;
+
+  --typography-heading-lg-fontSize: 24px;
+  --typography-heading-lg-fontWeight: 400;
+  --typography-heading-lg-lineHeight: 1.14;
+  --typography-heading-lg-letterSpacing: 0.36px;
+
+  --typography-heading-md-fontSize: 20px;
+  --typography-heading-md-fontWeight: 500;
+  --typography-heading-md-lineHeight: 1.4;
+  --typography-heading-md-letterSpacing: 0.3px;
+
+  --typography-heading-sm-fontSize: 18px;
+  --typography-heading-sm-fontWeight: 500;
+  --typography-heading-sm-lineHeight: 1.25;
+  --typography-heading-sm-letterSpacing: 0.72px;
+
+  --typography-body-lg-fontSize: 18px;
+  --typography-body-lg-fontWeight: 550;
+  --typography-body-lg-lineHeight: 1.56;
+  
+  --typography-body-md-fontSize: 16px;
+  --typography-body-md-fontWeight: 420;
+  --typography-body-md-lineHeight: 1.5;
+
+  --typography-body-strong-fontSize: 16px;
+  --typography-body-strong-fontWeight: 550;
+  --typography-body-strong-lineHeight: 1.5;
+
+  --typography-caption-fontSize: 14px;
+  --typography-caption-fontWeight: 500;
+  --typography-caption-lineHeight: 1.49;
+  --typography-caption-letterSpacing: 0.28px;
+
+  --typography-eyebrow-cap-fontSize: 12px;
+  --typography-eyebrow-cap-fontWeight: 400;
+  --typography-eyebrow-cap-lineHeight: 1.2;
+  --typography-eyebrow-cap-letterSpacing: 0.72px;
+
+  /* Border Radius */
+  --rounded-xs: 4px;
+  --rounded-sm: 5px;
+  --rounded-md: 8px;
+  --rounded-lg: 12px;
+  --rounded-xl: 20px;
+  --rounded-pill: 9999px;
+
+  /* Spacing */
+  --spacing-xxs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 32px;
+  --spacing-huge: 64px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --typography-display-xxl-fontSize: 56px;
+    --typography-display-xl-fontSize: 48px;
+    --typography-display-lg-fontSize: 36px;
+    --spacing-huge: 48px;
+  }
+}
