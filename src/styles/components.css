@@ -232,3 +232,12 @@
 .carousel-track:hover {
   animation-play-state: paused;
 }
+
+/* Responsive Display Utilities */
+.desktop-only { display: flex; }
+.mobile-only { display: none; }
+
+@media (max-width: 768px) {
+  .desktop-only { display: none !important; }
+  .mobile-only { display: flex !important; }
+}
