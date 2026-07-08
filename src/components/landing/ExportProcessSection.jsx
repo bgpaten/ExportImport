@@ -12,10 +12,10 @@ export default function ExportProcessSection() {
 
   return (
     <section style={{ padding: 'var(--spacing-huge) var(--spacing-xxl)' }}>
-      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 'var(--spacing-huge)', alignItems: 'center' }}>
+      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 400px), 1fr))', gap: 'var(--spacing-huge)', alignItems: 'center' }}>
         <div>
           <h2 className="display-xl" style={{ marginBottom: 'var(--spacing-huge)' }}>The Export Lifecycle.</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 'var(--spacing-xl)' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 250px), 1fr))', gap: 'var(--spacing-xl)' }}>
             {steps.map((step, idx) => (
               <div key={idx} style={{ paddingBottom: 'var(--spacing-xl)', borderBottom: '1px solid var(--color-hairline-dark)' }}>
                 <div className="eyebrow-cap" style={{ color: 'var(--color-link-mint)', marginBottom: 'var(--spacing-md)' }}>Phase {step.num}</div>

@@ -5,7 +5,7 @@ export default function CertificationsSection() {
 
   return (
     <section style={{ padding: 'var(--spacing-huge) var(--spacing-xxl)', borderTop: '1px solid var(--color-hairline-dark)', borderBottom: '1px solid var(--color-hairline-dark)' }}>
-      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--spacing-huge)', alignItems: 'center' }}>
+      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'var(--spacing-huge)', alignItems: 'center' }}>
         <div>
           <h3 className="display-lg" style={{ marginBottom: 'var(--spacing-xl)' }}>Uncompromised<br/>Compliance.</h3>
           <p className="body-lg" style={{ color: 'var(--color-shade-40)', marginBottom: 'var(--spacing-xxl)' }}>Every shipment is backed by internationally recognized quality and safety standards.</p>

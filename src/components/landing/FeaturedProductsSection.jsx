@@ -33,7 +33,7 @@ export default function FeaturedProductsSection() {
         </Link>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 'var(--spacing-xxl)' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 400px), 1fr))', gap: 'var(--spacing-xxl)' }}>
         {products.map(product => (
           <div key={product.id} className="card-feature-cinematic" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-lg)' }}>
             <div style={{ borderRadius: 'var(--rounded-md)', overflow: 'hidden', height: '300px' }}>

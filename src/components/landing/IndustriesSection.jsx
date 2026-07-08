@@ -18,7 +18,7 @@ export default function IndustriesSection() {
           <a href="#" className="button button-outline-on-dark" style={{ borderRadius: 'var(--rounded-pill)' }}>View All Sectors</a>
         </div>
         
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--spacing-xl)' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'var(--spacing-xl)' }}>
           {industries.map((ind, idx) => (
             <div key={idx} style={{ 
               backgroundColor: 'var(--color-canvas-night)', 

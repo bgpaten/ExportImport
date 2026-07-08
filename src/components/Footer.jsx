@@ -8,7 +8,7 @@ export default function Footer({ track = 'dark' }) {
   
   return (
     <footer className={footerClass} style={{ borderTop: track === 'light' ? `1px solid ${borderTopColor}` : 'none' }}>
-      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 'var(--spacing-huge)' }}>
+      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))', gap: 'var(--spacing-huge)' }}>
         <div style={{ gridColumn: 'span 2' }}>
           <h4 className="heading-sm" style={{ marginBottom: 'var(--spacing-md)' }}>Global Export.</h4>
           <p className="caption" style={{ color: linkClass, marginBottom: 'var(--spacing-xl)', maxWidth: '300px' }}>

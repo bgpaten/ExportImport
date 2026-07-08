@@ -20,7 +20,7 @@ export default function TestimonialsSection() {
     <section style={{ padding: 'var(--spacing-huge) var(--spacing-xxl)', backgroundColor: 'var(--color-canvas-night-elevated)' }}>
       <div style={{ maxWidth: '1440px', margin: '0 auto' }}>
         <h2 className="display-lg" style={{ marginBottom: 'var(--spacing-huge)' }}>Buyer Success.</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 'var(--spacing-huge)' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 400px), 1fr))', gap: 'var(--spacing-huge)' }}>
           {testimonials.map((t, i) => (
             <div key={i} style={{ borderLeft: '2px solid var(--color-link-mint)', paddingLeft: 'var(--spacing-xl)' }}>
               <p className="heading-lg" style={{ marginBottom: 'var(--spacing-xl)', fontStyle: 'italic', fontWeight: 300 }}>"{t.quote}"</p>

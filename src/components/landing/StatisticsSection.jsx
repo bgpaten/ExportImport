@@ -10,7 +10,7 @@ export default function StatisticsSection() {
 
   return (
     <section style={{ padding: 'var(--spacing-huge) var(--spacing-xxl)' }}>
-      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 'var(--spacing-huge)' }}>
+      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))', gap: 'var(--spacing-huge)' }}>
         {stats.map((stat, idx) => (
           <div key={idx}>
             <div className="display-xl" style={{ color: 'var(--color-on-primary)', marginBottom: 'var(--spacing-xs)' }}>{stat.value}</div>

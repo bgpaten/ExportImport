@@ -9,7 +9,7 @@ export default function WhyChooseUsSection() {
 
   return (
     <section style={{ padding: 'var(--spacing-huge) var(--spacing-xxl)', borderTop: '1px solid var(--color-hairline-dark)', borderBottom: '1px solid var(--color-hairline-dark)' }}>
-      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 'var(--spacing-huge)', alignItems: 'center' }}>
+      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 400px), 1fr))', gap: 'var(--spacing-huge)', alignItems: 'center' }}>
         <div>
           <h2 className="display-lg" style={{ marginBottom: 'var(--spacing-huge)' }}>
             Why enterprise buyers trust our infrastructure.

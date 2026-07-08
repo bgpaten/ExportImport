@@ -11,7 +11,7 @@ export default function InsightsSection() {
     <section style={{ padding: 'var(--spacing-huge) var(--spacing-xxl)' }}>
       <div style={{ maxWidth: '1440px', margin: '0 auto' }}>
         <h2 className="display-lg" style={{ marginBottom: 'var(--spacing-huge)' }}>Market Insights.</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--spacing-xl)' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'var(--spacing-xl)' }}>
           {articles.map((art, idx) => (
             <div key={idx} style={{ paddingBottom: 'var(--spacing-xl)' }}>
               <div style={{ width: '100%', height: '200px', borderRadius: 'var(--rounded-lg)', overflow: 'hidden', marginBottom: 'var(--spacing-lg)' }}>

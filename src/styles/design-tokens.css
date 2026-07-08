@@ -125,6 +125,22 @@
     --typography-display-xxl-fontSize: 56px;
     --typography-display-xl-fontSize: 48px;
     --typography-display-lg-fontSize: 36px;
+    --typography-display-md-fontSize: 32px;
+    --typography-heading-xl-fontSize: 24px;
+    --typography-heading-lg-fontSize: 20px;
     --spacing-huge: 48px;
+    --spacing-xxl: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --typography-display-xxl-fontSize: 40px;
+    --typography-display-xl-fontSize: 36px;
+    --typography-display-lg-fontSize: 32px;
+    --typography-display-md-fontSize: 28px;
+    --spacing-huge: 32px;
+    --spacing-xxl: 16px;
+    --spacing-xl: 16px;
   }
 }
